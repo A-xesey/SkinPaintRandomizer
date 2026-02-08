@@ -1,0 +1,11 @@
+keys preloadTextures
+	SkinPaintRandomizatorUI!dialog-bakgrnd-noframe.png
+	SkinPaintRandomizatorUI!EDT-icon-skinpaintRng-all.png
+	SkinPaintRandomizatorUI!EDT-icon-skinpaintRng-color.png
+	SkinPaintRandomizatorUI!EDT-icon-skinpaintRng-paint.png
+	SkinPaintRandomizatorUI!EDT-icon-skinpaintRng-seed.png
+	SkinPaintRandomizatorUI!EDT-icon-skinpaintRng-skinpaint.png
+	SkinPaintRandomizatorUI!radiobox-on-act-alt.png
+	SkinPaintRandomizatorUI!radiobox-on-hl-alt.png
+	SkinPaintRandomizatorUI!radiobox-on-norm-alt.png
+end
