@@ -564,7 +564,11 @@ bool SkinPaintRandomizer::HandleUIMessage(UTFWin::IWindow* pWindow, const UTFWin
 					SetRandomSkinEffectSeed(skintype);
 			}
 			if (Editor.IsMode(Mode::PaintMode))
+			{
 				Editor.mpEditorSkin->PaintSkin(Editor.mpEditorModel);
+				cEditorAnimEventPtr animEvent = new cEditorAnimEvent();
+				animEvent->MessagePost(id("event_apply_paint"), 0, Editor.mpEditorModel);
+			}
 			Editor.CommitEditHistory(true);
 			Audio::PlayAudio(id("editor_click"));
 		}
